@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>odin-gungnir</module>
+        <module>odin-runes</module>
     </modules>
 
 

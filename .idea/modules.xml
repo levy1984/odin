@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/odin.iml" filepath="$PROJECT_DIR$/odin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odin-gungnir/odin-gungnir.iml" filepath="$PROJECT_DIR$/odin-gungnir/odin-gungnir.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odin-runes/odin-runes.iml" filepath="$PROJECT_DIR$/odin-runes/odin-runes.iml" />
     </modules>
   </component>
 </project>
