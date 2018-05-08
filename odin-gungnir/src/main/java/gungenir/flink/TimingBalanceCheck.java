@@ -36,7 +36,7 @@ public class TimingBalanceCheck {
         myConsumer.setStartFromEarliest();     // start from the earliest record possible
         myConsumer.setStartFromLatest();       // start from the latest record
         myConsumer.setStartFromGroupOffsets(); // the default behaviour
-        log.info("-----------启动定时余额检查--------------");
+        log.info("-----------启动定时余额检查----------------");
 
 
         DataStream<ObjectNode> messageStream = env.addSource(myConsumer);
