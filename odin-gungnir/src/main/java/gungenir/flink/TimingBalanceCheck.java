@@ -45,7 +45,7 @@ public class TimingBalanceCheck {
             private static final long serialVersionUID = -6867736771747690202L;
             @Override
             public Tuple2<String, Integer> map(ObjectNode value) throws Exception {
-                return new Tuple2(value.get("acctId").toString(),1);
+                return new Tuple2(value.get("acctId").asText(),1);
             }
         }).keyBy(0).timeWindow(Time.seconds(5)).sum(1).print();
 
